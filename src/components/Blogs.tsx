@@ -1,6 +1,5 @@
 import { Row} from 'react-bootstrap';
 import { OnDeleteType } from '../layouts/BlogContainer';
-import BlogItem from './Blog'
 export type Blog = {
     title: String,
     img: string,
@@ -13,11 +12,7 @@ interface BlogsProps {
 }
 const Blogs = ({ blogs, onDelete }: BlogsProps) => {
     return (
-        <Row>
-            {blogs.map((blog: Blog, index: number) => {
-                return <BlogItem blog={blog} index={index} onDelete={onDelete} />
-            })}
-        </Row>
+       <h1>Blog item goes here</h1>
     );
 }
 

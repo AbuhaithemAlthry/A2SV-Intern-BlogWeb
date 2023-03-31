@@ -39,7 +39,7 @@ const BlogForm = ({ addBlog }: BlogFormProps) => {
                 <Form.Label>Image Url</Form.Label>
                 <Form.Control value={img} onChange={(e) => { setImg(e.target.value) }} type="text" />
             </Form.Group>
-            <Button onClick={(onAddBlog)} variant="primary">Add</Button>
+            <Button >Add</Button>
         </Form>
     )
 
